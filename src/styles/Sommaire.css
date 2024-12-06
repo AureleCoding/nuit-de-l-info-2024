@@ -1,0 +1,97 @@
+button {
+  color: #2c2242;
+  text-align: center;
+  text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 0 1px 0 white, 1px 0 0 white, -1px 0 0 white, 0 -1px 0 white;
+  cursor: pointer;
+  background: rgba(134, 160, 220, 0.63);
+  background-size: 100%;
+  transition: font-size 0.2s ease-in;
+  outline: 4px;
+  width: 150px;
+  border-color: rgba(0, 212, 255, 0.25);
+  position: relative;
+  height: 50px;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px #000077, -5px -6px 20px rgba(0, 0, 119, 0.49) inset, 5px 5px 8px #f5f5ff inset, -5px -6px 20px rgba(0, 0, 56, 0.47) inset, 0 0 8px rgba(0, 0, 0, 0.3333333333);
+  display: grid;
+  place-items: center;
+  font-weight: 600;
+}
+button:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 13px;
+  background: rgba(255, 255, 255, 0.32);
+  border-radius: 100%;
+  left: 10px;
+  top: 9px;
+}
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(2px) scale(105%);
+  outline: 4px auto -webkit-focus-ring-color;
+}
+button:disabled {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+button:hover {
+  font-size: 16px;
+}
+
+.button {
+  animation: bubbleButton 5s ease-in-out infinite;
+}
+
+.button2 {
+  animation: bubbleButton 5s ease-in-out infinite;
+  animation-delay: 3.7s;
+}
+
+.button3 {
+  animation: bubbleButton 5s ease-in-out infinite;
+  animation-delay: 2.4s;
+}
+
+.button4 {
+  animation: bubbleButton 5s ease-in-out infinite;
+  animation-delay: 1.6s;
+}
+
+button:nth-child(2) {
+  animation-delay: 2s;
+}
+
+button:nth-child(3) {
+  animation-delay: 3s;
+}
+
+@keyframes bubbleButton {
+  0% {
+    transform: translateY(0%);
+  }
+  33% {
+    transform: translateY(25%);
+  }
+  66% {
+    transform: translateY(-25%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.mute {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  left: 10px;
+  top: 10px;
+  z-index: 9999999;
+}
+
+/*# sourceMappingURL=Sommaire.css.map */

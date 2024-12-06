@@ -1,0 +1,55 @@
+
+.FaceImage {
+  position: relative;
+  border-radius: 15px;
+  align-self: flex-start; /* Place the first element to the left */
+  width: 300px;
+  height: 300px;
+  background-image: url("src/assets/Image/nous/aurele.jpg");
+    background-size: cover;
+  background-position: center;
+  border: 2px solid #ffcc00;
+  animation: glow 1.5s infinite alternate;
+  aspect-ratio: 1;
+}
+
+.FaceImage2 {
+  position: relative;
+  display: block;
+  align-self: flex-end; /* Place the second element to the right */
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  background-image: url("src/assets/Image/nous/maxence.png");
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #ffcc00;
+  animation: glow 1.5s infinite alternate;
+  aspect-ratio: 1;
+}
+
+.FaceImage3 {
+  position: relative;
+  display: block;
+  border-radius: 15px;
+  align-self: flex-start; /* Place the third element to the left */
+  width: 300px;
+  height: 300px;
+  background-image: url("src/assets/Image/nous/timeo.png");
+  background-size: cover;
+  background-position: center;
+  border: 2px solid #ffcc00;
+  animation: glow 1.5s infinite alternate;
+  aspect-ratio: 1;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00;
+  }
+  100% {
+    box-shadow: 0 0 20px #ffcc00, 0 0 40px #ffcc00;
+  }
+}
+
+

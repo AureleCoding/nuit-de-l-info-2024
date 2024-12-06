@@ -1,0 +1,9 @@
+.floor {
+  position: absolute;
+  background-image: url("src/assets/Image/Sommaire/sommaire_sky.jpg");
+  height: 20vh;
+  width: 100%;
+  top: 600vh;
+}
+
+/*# sourceMappingURL=floor.css.map */

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); // Import de la police rétro pixelisée
+
+.TextCredit {
+  height: 200px;
+  width: 600px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+  font-family: 'Press Start 2P', cursive;
+  animation: glow 1.5s infinite alternate;
+}
+
+.TextCredit1 {
+  height: 200px;
+  width: 600px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+  font-family: 'Press Start 2P', cursive;
+  animation: glow 1.5s infinite alternate;
+}
+
+.TextCredit2 {
+  height: 200px;
+  width: 600px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+  font-family: 'Press Start 2P', cursive;
+  animation: glow 1.5s infinite alternate;
+}
+
+
+.Name {
+  font-size: 1.5rem;
+  color: #ff4444; // Rouge vif
+  text-shadow: 0 0 5px #ff4444, 0 0 10px #ff4444;
+  margin-bottom: 1rem;
+}
+
+.citation {
+  font-size: 1rem;
+  color: #44ff44; // Vert vif
+  text-shadow: 0 0 5px #44ff44, 0 0 10px #44ff44;
+}
+
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px #ffcc00, 0 0 20px #ffcc00;
+  }
+  100% {
+    box-shadow: 0 0 20px #ffcc00, 0 0 40px #ffcc00;
+  }
+}

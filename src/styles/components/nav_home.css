@@ -1,0 +1,25 @@
+.NavHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0.5rem 1rem;
+  background-color: rgba(26, 95, 255, 0);
+  color: #fff;
+  max-inline-size: 700px;
+  position: relative;
+  top: 15px;
+  left: 33%;
+  border-radius: 10px;
+  z-index: 9999;
+}
+.NavHome ul {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 22px;
+}
+
+/*# sourceMappingURL=nav_home.css.map */

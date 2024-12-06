@@ -1,0 +1,46 @@
+.fish {
+  overflow: visible;
+  position: absolute;
+  width: 235px;
+  height: 104px;
+  margin-left: -235px;
+  top: 4500px;
+  opacity: 0.6;
+  left: 5em;
+  animation: swim 30s linear infinite;
+}
+
+@keyframes swim {
+  0% {
+    transform: translateX(-5px);
+  }
+  70% {
+    transform: translateX(1000%);
+  }
+  100% {
+    transform: translateX(1000%);
+  }
+}
+svg #fish2,
+svg #fish6 {
+  fill: #528484;
+  animation: bounce 2s infinite;
+}
+
+svg #fish2 {
+  animation-delay: 0.5s;
+}
+
+@keyframes bounce {
+  0%, 50%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  75% {
+    transform: translateY(-3px);
+  }
+}
+
+/*# sourceMappingURL=fish2.css.map */
