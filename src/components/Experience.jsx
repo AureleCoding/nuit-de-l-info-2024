@@ -21,7 +21,7 @@ const MovingEntity = React.memo(({Entity, scale, position, direction = 1}) => {
 
     useFrame(() => {
         if (entityRef.current) {
-            entityRef.current.position.x = entityRef.current.position.x > 20 ? -20 : entityRef.current.position.x + 0.01 * direction;
+            entityRef.current.position.x = entityRef.current.position.x > 20 ? -20 : entityRef.current.position.x + 0.010 * direction;
         }
     });
 
