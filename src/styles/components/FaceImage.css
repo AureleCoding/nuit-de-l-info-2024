@@ -4,7 +4,7 @@
   align-self: flex-start; /* Place the first element to the left */
   width: 300px;
   height: 300px;
-  background-image: url("src/assets/Image/nous/aurele.jpg");
+  background-image: url("../../../public/static/Image/nous/aurele.jpg");
   background-size: cover;
   background-position: center;
   border: 2px solid #ffcc00;
@@ -19,7 +19,7 @@
   border-radius: 15px;
   width: 300px;
   height: 300px;
-  background-image: url("src/assets/Image/nous/maxence.png");
+  background-image: url("../../../public/static/Image/nous/maxence.png");
   background-size: cover;
   background-position: center;
   border: 2px solid #ffcc00;
@@ -34,7 +34,7 @@
   align-self: flex-start; /* Place the third element to the left */
   width: 300px;
   height: 300px;
-  background-image: url("src/assets/Image/nous/timeo.png");
+  background-image: url("../../../public/static/Image/nous/timeo.png");
   background-size: cover;
   background-position: center;
   border: 2px solid #ffcc00;

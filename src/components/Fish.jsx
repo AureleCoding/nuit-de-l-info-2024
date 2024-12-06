@@ -2,7 +2,7 @@ import React, { forwardRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 const Fish = forwardRef((props, ref) => {
-  const { nodes, materials } = useGLTF('src/assets/models/fish.glb')
+  const { nodes, materials } = useGLTF('./static/models/fish.glb')
   return (
     <group ref={ref} {...props} dispose={null}>
       <group position={[0, 0, 0]} rotation={[0, 0, -0.946]}>
@@ -23,6 +23,6 @@ const Fish = forwardRef((props, ref) => {
 })
 
 Fish.displayName = 'Fish'
-useGLTF.preload('src/assets/models/fish.glb')
+useGLTF.preload('./static/models/fish.glb')
 
 export default Fish

@@ -10,7 +10,7 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export default function Jellyfish(props) {
-  const { nodes, materials } = useGLTF('src/assets/models/jellyfish.glb')
+  const { nodes, materials } = useGLTF('./static/models/jellyfish.glb')
   return (
     <group {...props} dispose={null}>
       <group rotation={[-Math.PI / 2, 0, 0]} scale={0.408}>
@@ -41,4 +41,4 @@ export default function Jellyfish(props) {
   )
 }
 
-useGLTF.preload('src/assets/models/jellyfish.glb')
+useGLTF.preload('./static/models/jellyfish.glb')

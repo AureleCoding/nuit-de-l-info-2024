@@ -1,6 +1,6 @@
 .floor {
   position: absolute;
-  background-image: url("src/assets/Image/Sommaire/sommaire_sky.jpg");
+  background-image: url("../../../public/static/Image/Sommaire/sommaire_sky.jpg");
   height: 20vh;
   width: 100%;
   top: 600vh;

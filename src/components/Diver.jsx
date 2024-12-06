@@ -4,7 +4,7 @@ import { lerp } from "three/src/math/MathUtils.js";
 
 export default function Diver(props) {
     const group = useRef();
-    const { nodes, materials, animations } = useGLTF('/src/assets/models/diver.glb');
+    const { nodes, materials, animations } = useGLTF('./static/models/diver.glb');
     const { actions } = useAnimations(animations, group);
     const animation = 'Armature|mixamo.com|Layer0';
 
@@ -60,4 +60,4 @@ export default function Diver(props) {
     );
 }
 
-useGLTF.preload('/src/assets/models/diver.glb');
+useGLTF.preload('./static/models/diver.glb');

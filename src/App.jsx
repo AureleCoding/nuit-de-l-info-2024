@@ -10,7 +10,7 @@ import Capchat from "./pages/Capchat.jsx";
 function App() {
     return (<>
         <Suspense fallback={<div>Loading...</div>}>
-            <Player url="src/assets/music/underwater.mp3" url2={"src/assets/music/egg1.mp3"}/>
+            <Player url="./static/music/underwater.mp3" url2={"./static/assets/music/egg1.mp3"}/>
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Layout/>}>
