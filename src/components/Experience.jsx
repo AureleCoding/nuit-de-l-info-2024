@@ -5,7 +5,6 @@ import {Float, OrbitControls, Stats} from '@react-three/drei';
 import Diver from './Diver.jsx';
 import Fish from './Fish.jsx';
 import Jellyfish from './Jellyfish.jsx';
-import AnglerFish from './AnglerFish.jsx';
 
 const createColorInterpolator = () => {
     const lightBlue = new THREE.Color('lightblue');
@@ -78,13 +77,13 @@ function Experience() {
             scale={jellyfish.scale}
             position={jellyfish.position}
         />))}
-        {ANGLER_POSITIONS.map((anglerFish, index) => (<MovingEntity
+        {/*{ANGLER_POSITIONS.map((anglerFish, index) => (<MovingEntity
             key={`anglerFish-${index}`}
             Entity={AnglerFish}
             scale={anglerFish.scale}
             position={anglerFish.position}
             direction={-1}
-        />))}
+        />))}*/}
     </Canvas>);
 }
 
