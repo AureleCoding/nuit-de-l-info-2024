@@ -93,7 +93,7 @@ const Capchat = () => {
 
     const startGame = () => {
         setScore(0);
-        setTime(20);
+        setTime(5);
         setGameStarted(true);
         setGameOver(false);
         setTries((prev) => prev + 1);
@@ -103,13 +103,13 @@ const Capchat = () => {
         <div className="container-capchat">
             {!gameStarted && !gameOver ? (
                 <button style={{width: "200px"}} onClick={startGame}>Etes vous un robot ?</button>
-            ) : gameOver && score < 20 ? (
+            ) : gameOver && score < 5 ? (
                 <TrashTalk trashNum={tries} onRetry={startGame}/>
-            ) : gameOver || score >= 20 || tries >= 3 ? (
+            ) : gameOver || score >= 5 || tries >= 3 ? (
                 <VerificationPage/>
             ) : (
                 <div className={"content-captcha"}>
-                    <h2>Attrapez {20} poissons en 20 secondes !</h2>
+                    <h2>Attrapez {5} poissons en 5 secondes !</h2>
                     <div className="score">Score: {score}</div>
                     <div className="timer">Time: {time}s</div>
                     <div className="tries">Tries: {tries}</div>

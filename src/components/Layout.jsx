@@ -11,7 +11,7 @@ const Layout = () => {
         <nav>
             <ul>
                 <li>
-                    <Link to={"/"} className={"home"}>
+                    <Link to={"/home"} className={"home"}>
                         <Button text={"Home"}/>
                     </Link>
                 </li>
