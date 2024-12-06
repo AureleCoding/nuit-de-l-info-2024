@@ -90,7 +90,7 @@ function Home(props) {
                     </div>
 
                     <div style={{display: "flex", flexDirection: "row"}}>
-                        <BubbleButtonR path={"src/assets/Image/Sommaire/garbages.png"}/>
+                        <BubbleButtonR path={"./static/Image/Sommaire/garbages.png"}/>
                         <TextWithButtonR
                             text={"Il ne faut pas oublier que, tout comme le corps humain, l'océan ne peut pas digérer les microplastiques ni toute autre forme de pollution. Or, un déchet plastique jeté dans l'océan aujourd'hui met jusqu'à 500 ans à se décomposer! \n Ne jetez pas vos déchets dans l'océan! \n"}></TextWithButtonR>
                     </div>
